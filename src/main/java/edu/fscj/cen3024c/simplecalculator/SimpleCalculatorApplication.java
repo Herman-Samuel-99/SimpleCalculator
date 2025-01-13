@@ -2,6 +2,8 @@
 // D. Singletary
 // 1/9/2024
 // Template for calculator application
+// Bryson Rusomaroff
+// 1/12/2025
 
 package edu.fscj.cen3024c.simplecalculator;
 
@@ -29,6 +31,28 @@ public class SimpleCalculatorApplication {
 
         // Test the subtract function
         result = subtract(number1, number2);
-        System.out.println("Add result is: " + result);
+        System.out.println("Subtract result is: " + result);
+    }
+
+    // Adds two integers
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    // Subtracts two integers
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+
+    // Multiplies two integers
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    // Divides two integers
+    public static int divide(int a, int b) {
+        return a / b;
     }
 }
+
+
